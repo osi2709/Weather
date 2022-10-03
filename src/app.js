@@ -138,7 +138,7 @@ form.addEventListener("submit", submit);
 
   let cities = document.querySelector("#cities");
 
-  let cityName = ["London", "Paris", "Rome", "Berlin", "Kyiv"];
+  let cityName = ["Kyiv", "Dnipro", "Lviv", "Kharkiv", "Odesa"];
 
   let cityNameHTML = `<div class="row">`;
   cityName.forEach(function (city) {
@@ -153,12 +153,10 @@ form.addEventListener("submit", submit);
 
   cities.innerHTML = cityNameHTML;
 
-
 let citiesLink = document.querySelectorAll("#city-link");
 citiesLink.forEach(function (cityLink) {
   cityLink.addEventListener("click", function () {
     searchCity(this.innerHTML);
   });
 });
-
-searchCity("Kyiv");
+searchCity("Odesa");
