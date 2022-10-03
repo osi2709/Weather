@@ -1,20 +1,18 @@
 body {
   font-family: Arial, sans-serif;
+  color: #104d5e;
 }
 h1 {
-  color: #000000;
   font-size: 36px;
   font-weight: bold;
 }
 h2 {
-  color: #000000;
   text-align: right;
   font-size: 20px;
   font-weight: bold;
 }
 ul {
   list-style: none;
-  color: #979eac;
   font-size: 16px;
   padding-top: 25px;
 }
@@ -63,7 +61,6 @@ li:first-letter {
 }
 .cities {
   display: block;
-  color: #5a6275;
   text-align: center;
   font-size: 18px;
   padding-top: 15px;
@@ -95,11 +92,9 @@ li:first-letter {
 }
 .city-link {
   text-decoration: none;
-  color: #000000;
   cursor: default;
 }
 .forecast-day {
-  color: #5a6275;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
