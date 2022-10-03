@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  color: #000000;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  color: #979eac;
+  font-size: 16px;
+  padding-top: 25px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.container {
+  display: block;
+  max-width: 600px;
+  padding: 20px;
+}
+.content {
+  display: block;
+  border: 2px solid #5a6275;
+  border-radius: 17px;
+  padding: 20px;
+  max-width: 550px;
+  margin: 30px auto 0px;
+}
+.search {
+  display: block;
+  font-size: 18px;
+  background: #f2f2f1;
+  border: 2px solid #f2f2f1;
+  border-radius: 22px;
+  padding: 0px;
+  margin: auto;
+}
+.enter-city {
+  display: inline-block;
+  background: #f2f2f1;
+  border: none;
+  border-radius: 22px;
+  width: 100%;
+  padding: 10px 20px;
+}
+.submit-city {
+  display: block;
+  background: #f2f2f1;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 0px;
+  margin: auto;
+  transition: all 150ms ease-in-out;
+  cursor: default;
+}
+.cities {
+  display: block;
+  color: #5a6275;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+}
+.information {
+  padding: 10px;
+}
+.current-weather {
+  padding: 15px 0px 5px;
+}
+.current-weather-icon {
+  width: 120px;
+}
+.current-weather-temperature {
+  text-align: left;
+  font-weight: bold;
+  line-height: normal;
+  padding: 25px 0px 0px;
+}
+.temperature-day {
+  font-size: 44px;
+}
+.temperature-information {
+  text-align: left;
+}
+.temperature-unit {
+  position: relative;
+  top: -20px;
+}
+.city-link {
+  text-decoration: none;
+  color: #000000;
+  cursor: default;
+}
+.forecast-day {
+  color: #5a6275;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px 15px;
+}
+.forecast-icon {
+  width: 60px;
+  position: relative;
+  top: -7px;
+  right: 10px;
+}
+.forecast-temperature {
+  text-align: left;
+}
+.source {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.link {
+  color: #000000;
+  cursor: default;
+}
