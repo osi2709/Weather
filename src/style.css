@@ -21,12 +21,12 @@ li:first-letter {
 }
 .container {
   display: block;
-  background-color: #93d4e6;
   max-width: 600px;
   padding: 20px;
 }
 .content {
   display: block;
+  background-color: #a7d1dd;
   border: 2px solid #415995;
   border-radius: 17px;
   padding: 20px;
