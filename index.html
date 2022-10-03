@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <form class= "search" id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                class="enter-city"
+                id="search-input"
+                type="text"
+                placeholder="Enter a city"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-3">
+              <input class="submit-city" type="submit" value="Search" />
+            </div>
+          </div>
+        </form>
+        <div class="cities" id="cities"></div>
+        <hr />
+        <div class="information">
+          <div class="row">
+            <div class="col-7">
+              <h1 id="city"></h1>
+            </div>
+            <div class="col-5">
+              <h2 id="date"></h2>
+            </div>
+          </div>
+        </div>
+        <section class="current-weather">
+          <div class="row">
+            <div class="col-7">
+              <div class="row">
+              <div class="col-5">
+                <img src="" alt="" class="current-weather-icon" id="icon" />
+              </div>
+              <div class="col-7">
+                <div class="current-weather-temperature">
+                <span class="temperature-day" id="current-temperature"></span>
+                <span class="temperature-unit">°C</span>
+                </div>
+                <div class="temperature-information">
+                <strong> <span id="max"></span>° /</strong> <span id="min"></span>°
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <ul>
+                <li>
+                  <span id="description"></span>
+                </li>
+                <li>
+                  Humidity: <span id="humidity"></span>%
+                </li>
+                <li>
+                  Wind speed: <span id="wind"></span> m/h
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <div id="forecast"></div>
+      </div>
+    </div>
+    <small class= "source">
+      Open sourced on <a href=https://github.com/LaurenRina/weather target="_blank" class="link">GitHub</a>
+    </small>
+    <script src="src/app.js"></script>
+  </body>
+</html>
